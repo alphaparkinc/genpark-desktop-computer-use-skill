@@ -1,0 +1,30 @@
+{
+  "name": "genpark-desktop-computer-use-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Desktop UI interaction sequence planner from screen descriptions.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "computer-use",
+    "desktop",
+    "automation"
+  ],
+  "inputs": {
+    "screen_elements": {
+      "type": "array"
+    },
+    "goal_action": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "action_sequence": {
+      "type": "array"
+    },
+    "confidence": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
